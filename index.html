@@ -8,9 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="body">
   <div class="more-details">
-    <img src="./eisenhower-matrix.jpg">
+    <img src="./eisenhower-matrix.jpg" class="more-details__image">
     <a class="more-details__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="main-container">
@@ -18,10 +18,10 @@
       <label for="add-tasks__title">Add Item</label>
       <div class="add-tasks__wrapper new-task">
         <input id="new-task" class="new-task__input" type="text">
-        <button>Add</button>
+        <button class="add-tasks__button">Add</button>
       </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="title">Todo</h3>
     <ul id="incomplete-tasks" class="tasks-list">
       <li class="task-item item">
         <input type="checkbox" class="item__checkbox">
@@ -42,7 +42,7 @@
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="title">Completed</h3>
     <ul id="completed-tasks" class="tasks-list">
       <li class="task-item item">
         <input type="checkbox" class="item__checkbox" checked>
